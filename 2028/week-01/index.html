@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Old Guy CFB Dynasty — 2028 Week 1 weekly newspaper edition.">
+<title>Week 1 — Old Guy CFB Dynasty Weekly</title>
+<style>
+:root{--paper:#f3eddd;--paper2:#ebe2cf;--ink:#171512;--muted:#665f55;--rule:#a99e89;--accent:#8d1d2f;--gold:#9c7218}
+*{box-sizing:border-box}html,body{margin:0;background:#d5cec0;color:var(--ink)}body{font-family:Georgia,"Times New Roman",serif}.paper{width:min(1160px,calc(100% - 24px));margin:18px auto 42px;background:var(--paper);box-shadow:0 12px 38px #0003;padding:24px 38px 42px}.utility,.edition,.eyebrow,.byline,.smallcap,.footer,.user{font-family:Arial,sans-serif}.utility{display:flex;justify-content:space-between;border-top:5px double var(--ink);border-bottom:1px solid var(--ink);padding:8px 0 7px;font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.utility a{text-decoration:none}.masthead{text-align:center;font-weight:900;font-size:clamp(44px,7vw,86px);line-height:.88;letter-spacing:-.055em;padding:16px 0 5px}.tagline{text-align:center;font:800 12px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);padding-bottom:12px}.edition{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--ink);border-bottom:3px double var(--ink);padding:6px 0;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.hero{padding:25px 0 18px;border-bottom:1px solid var(--rule)}.eyebrow{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}.hero h1{font-size:clamp(39px,6vw,76px);line-height:.95;letter-spacing:-.045em;margin:0 0 12px}.dek{font-size:clamp(18px,2.2vw,27px);line-height:1.25;margin:0 0 12px;max-width:980px}.byline{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.11em;color:var(--muted)}
+.coverboard{margin:18px 0 22px;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:14px 0 12px;display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:0}.coverlead{padding:8px 20px 8px 4px;border-right:1px solid var(--rule)}.coverlead .smallcap{font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}.coverlead strong{display:block;font-size:37px;line-height:1;margin-top:7px}.coverlead span{display:block;font-size:15px;line-height:1.35;margin-top:6px}.rankbox{padding:7px 14px;border-right:1px solid var(--rule)}.rankbox:last-child{border-right:0}.ranknum{font-size:31px;font-weight:900;color:var(--accent)}.rankteam{font-size:21px;font-weight:800;line-height:1.1}.rankuser{font:800 12px Arial,sans-serif;margin-top:4px}.rankrecord{font:12px Arial,sans-serif;color:var(--muted);margin-top:3px}
+.lede{font-size:19px;line-height:1.58;margin:18px 0 22px}.lede:first-letter{float:left;font-size:66px;line-height:.78;padding:8px 8px 0 0;font-weight:900}.columns{column-count:3;column-gap:30px;column-rule:1px solid var(--rule);font-size:16px;line-height:1.55}.columns p{margin:0 0 1em;break-inside:avoid}.columns h2,.section h2{column-span:all;font-size:30px;line-height:1.05;margin:5px 0 12px;padding-top:12px;border-top:3px double var(--ink)}.user{font-weight:800;font-size:.82em}.pull{column-span:all;font-size:27px;line-height:1.25;font-style:italic;text-align:center;margin:20px 4%;padding:16px 8%;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.agate{column-span:all;margin:20px 0 22px;border-top:3px double var(--ink);border-bottom:3px double var(--ink);padding:9px 0}.agate h3,.mini h3{font:800 11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.14em;margin:0 0 8px}.row{display:grid;grid-template-columns:1fr auto;gap:12px;padding:8px 4px;border-top:1px solid var(--rule);align-items:center}.row:first-of-type{border-top:0}.match{font-size:16px}.score{font-weight:900;font-size:20px;white-space:nowrap}.rank{font-weight:800}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:24px 0;border-top:1px solid var(--ink);padding-top:18px}.section p{font-size:16px;line-height:1.55}.poll{border-top:3px double var(--ink);border-bottom:3px double var(--ink);padding:8px 0}.pollrow{display:grid;grid-template-columns:44px 1fr auto;gap:8px;align-items:center;padding:8px 4px;border-top:1px solid var(--rule);font-family:Arial,sans-serif}.pollrow:first-child{border-top:0}.pollrank{font-weight:900;font-size:20px;color:var(--accent)}.pollteam{font-weight:800}.polluser{font-size:12px}.pollrec{font-weight:800}.note{font:12px/1.45 Arial,sans-serif;color:var(--muted);background:var(--paper2);padding:11px 13px;border-left:3px solid var(--rule);margin:15px 0}
+.statboard{border-top:3px double var(--ink);border-bottom:3px double var(--ink);padding:10px 0}.stat{padding:11px 4px;border-top:1px solid var(--rule)}.stat:first-child{border-top:0}.statlabel{font:800 10px Arial,sans-serif;letter-spacing:.13em;text-transform:uppercase;color:var(--gold)}.statvalue{font-size:34px;font-weight:900;line-height:1.05;margin-top:4px}.statdesc{font:13px/1.4 Arial,sans-serif;margin-top:3px}.status{font:800 10px Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--accent)}.closing{font-size:21px;line-height:1.45;border-top:3px double var(--ink);padding-top:16px;margin-top:26px}.footer{margin-top:26px;padding-top:10px;border-top:1px solid var(--ink);text-align:center;font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+@media(max-width:860px){.columns{column-count:2}.two{grid-template-columns:1fr}.coverboard{grid-template-columns:1fr 1fr}.coverlead{grid-column:1/-1;border-right:0;border-bottom:1px solid var(--rule);padding-bottom:14px}.rankbox:nth-child(3){border-right:0}.paper{padding:20px 24px 34px}}@media(max-width:620px){.paper{width:100%;margin:0;padding:16px 18px 28px;box-shadow:none}.columns{column-count:1;column-rule:0}.edition{font-size:9px}.hero h1{font-size:42px}.coverboard{grid-template-columns:1fr}.rankbox,.rankbox:nth-child(3){border-right:0;border-bottom:1px solid var(--rule)}.row{grid-template-columns:1fr}.score{justify-self:start}.pull{font-size:22px;margin:16px 0;padding:14px 4%}}
+</style>
+</head>
+<body><main class="paper">
+<div class="utility"><a href="../../">← 2028 archive</a><span>The Dynasty Sports Page</span></div>
+<div class="masthead">OLD GUY CFB</div><div class="tagline">College Football 27 Dynasty Weekly</div>
+<div class="edition"><span>2028 Season · Week 1</span><span>Opening Edition</span><span>September 24, 2026</span></div>
+<header class="hero"><div class="eyebrow">Week 1 · The season is already moving</div><h1>No. 1 Washington State opens with a statement</h1><p class="dek">Isaac rolls past USF 37–7, Wyoming squeezes Stanford in a top-four user showdown, and six user results are already in the books.</p><div class="byline">Old Guy CFB Weekly · Verified from the Week 1 capture</div></header>
+
+<section class="coverboard">
+<div class="coverlead"><div class="smallcap">Week 1 front page</div><strong>37–7</strong><span><b>Washington State</b> <span class="user">[Isaac]</span> over <b>USF</b> <span class="user">[Cole]</span></span></div>
+<div class="rankbox"><div class="ranknum">#1</div><div class="rankteam">Washington State</div><div class="rankuser">[Isaac]</div><div class="rankrecord">2–0</div></div>
+<div class="rankbox"><div class="ranknum">#3</div><div class="rankteam">Wyoming</div><div class="rankuser">[Karl_Hungus]</div><div class="rankrecord">1–0</div></div>
+<div class="rankbox"><div class="ranknum">#4</div><div class="rankteam">Stanford</div><div class="rankuser">[Todd]</div><div class="rankrecord">0–1</div></div>
+</section>
+
+<p class="lede">Week 1 did not wait around for introductions. Washington State <span class="user">[Isaac]</span> carried the No. 1 Media Poll ranking into a 37–7 win at USF <span class="user">[Cole]</span>, while No. 3 Wyoming <span class="user">[Karl_Hungus]</span> escaped No. 4 Stanford <span class="user">[Todd]</span> 20–17 in the tightest user-v-user result on the board. Fresno State <span class="user">[Brink]</span> supplied the fireworks with 56 points, and UConn <span class="user">[Phil Macrack]</span> walked into Florida State and left with a 30–13 win.</p>
+
+<section class="columns"><h2>The opening-week ledger</h2>
+<p>With no Week 0 recap to settle, this edition starts where the season starts: the Week 1 slate. Six captured user games were already final when the weekly report was assembled, including two user-v-user matchups and four games against computer-controlled opponents.</p>
+<p>The headline belongs to Washington State. The Cougars’ 30-point win at USF pairs neatly with the other verified early-season numbers around Isaac’s team: 486 yards per game on offense, and quarterback D. Lindsey sitting atop the national passing board with 699 yards and five touchdowns.</p>
+<p>Wyoming and Stanford provided a different kind of opener. The No. 3 Cowboys <span class="user">[Karl_Hungus]</span> won 20–17 at No. 4 Stanford <span class="user">[Todd]</span>, a three-point finish between two of the highest-ranked user teams in the current Media Poll.</p>
+<div class="agate"><h3>Week 1 · Captured finals</h3>
+<div class="row"><div class="match"><span class="rank">#1 Washington State</span> <span class="user">[Isaac]</span> at USF <span class="user">[Cole]</span></div><div class="score">37–7</div></div>
+<div class="row"><div class="match">Boise State at <span class="rank">#9 Fresno State</span> <span class="user">[Brink]</span></div><div class="score">30–56</div></div>
+<div class="row"><div class="match">Charlotte <span class="user">[Kel]</span> at Eastern Michigan</div><div class="score">34–24</div></div>
+<div class="row"><div class="match">Nebraska at <span class="rank">#6 UTEP</span> <span class="user">[Przemysl]</span></div><div class="score">23–21</div></div>
+<div class="row"><div class="match"><span class="rank">#3 Wyoming</span> <span class="user">[Karl_Hungus]</span> at <span class="rank">#4 Stanford</span> <span class="user">[Todd]</span></div><div class="score">20–17</div></div>
+<div class="row"><div class="match">UConn <span class="user">[Phil Macrack]</span> at Florida State</div><div class="score">30–13</div></div>
+</div>
+<p>Brink’s Fresno State offense has been the loudest unit in the verified team-stat snapshot: 517 yards per game, ahead of Washington State’s 486. That showed up on the scoreboard against Boise State, where the Bulldogs hung 56 in a 26-point win.</p>
+<p>Charlotte <span class="user">[Kel]</span> improved to 2–0 with a 34–24 road win at Eastern Michigan. UTEP <span class="user">[Przemysl]</span> took the hard-luck result of the captured slate, falling 23–21 to Nebraska. UConn <span class="user">[Phil Macrack]</span> supplied one of the cleanest road results of the week, beating Florida State by 17.</p>
+<div class="pull">Week 1 already has a No. 1 statement, a three-point top-four user game, and a 56-point outburst.</div>
+</section>
+
+<section class="two">
+<div class="section"><h2>Six user teams land in the Media Poll</h2><p>Washington State <span class="user">[Isaac]</span> owns the top line at No. 1. Wyoming <span class="user">[Karl_Hungus]</span> follows at No. 3, Stanford <span class="user">[Todd]</span> at No. 4, UTEP <span class="user">[Przemysl]</span> at No. 6, Fresno State <span class="user">[Brink]</span> at No. 9 and UNLV <span class="user">[Westy]</span> at No. 13.</p><p>The largest verified Media/Coaches split among those teams is Fresno State: No. 9 in the Media Poll and No. 12 in the Coaches Poll. The weekly edition uses the Media number as the primary ranking.</p><div class="note">Coverage note: four Media Poll positions were not verified in this capture, so this edition does not reconstruct the missing rows. The user-team rankings printed here are verified.</div></div>
+<div class="poll">
+<div class="pollrow"><div class="pollrank">#1</div><div><div class="pollteam">Washington State</div><div class="polluser">[Isaac]</div></div><div class="pollrec">2–0</div></div>
+<div class="pollrow"><div class="pollrank">#3</div><div><div class="pollteam">Wyoming</div><div class="polluser">[Karl_Hungus]</div></div><div class="pollrec">1–0</div></div>
+<div class="pollrow"><div class="pollrank">#4</div><div><div class="pollteam">Stanford</div><div class="polluser">[Todd]</div></div><div class="pollrec">0–1</div></div>
+<div class="pollrow"><div class="pollrank">#6</div><div><div class="pollteam">UTEP</div><div class="polluser">[Przemysl]</div></div><div class="pollrec">0–1</div></div>
+<div class="pollrow"><div class="pollrank">#9</div><div><div class="pollteam">Fresno State</div><div class="polluser">[Brink]</div></div><div class="pollrec">1–0</div></div>
+<div class="pollrow"><div class="pollrank">#13</div><div><div class="pollteam">UNLV</div><div class="polluser">[Westy]</div></div><div class="pollrec">1–0</div></div>
+</div>
+</section>
+
+<section class="columns"><h2>What is still on the Week 1 board</h2>
+<p>The biggest remaining confirmed user-v-user matchup is UAB <span class="user">[Jackpot]</span> at USF <span class="user">[Cole]</span>. UAB enters the captured snapshot at 1–0 and carrying a verified +5 turnover differential; USF is looking to answer after the loss to Washington State.</p>
+<p>Oregon State <span class="user">[Joe]</span> also has a captured Week 1 game line, but the opponent identity was not verified cleanly enough to print as an established school name. The schedule entry is preserved without guessing.</p>
+<p>UNLV <span class="user">[Westy]</span> is No. 13 in the Media Poll and 1–0 in the standings snapshot, but Westy did not appear on the captured Week 1 schedule. This edition does not label that absence a bye.</p>
+<div class="agate"><h3>Week 1 · Remaining / unresolved schedule</h3>
+<div class="row"><div class="match">UAB <span class="user">[Jackpot]</span> at USF <span class="user">[Cole]</span></div><div class="status">Scheduled</div></div>
+<div class="row"><div class="match">Opponent not verified at Oregon State <span class="user">[Joe]</span></div><div class="status">Scheduled line captured</div></div>
+<div class="row"><div class="match">UNLV <span class="user">[Westy]</span></div><div class="status">Schedule not captured</div></div>
+</div></section>
+
+<section class="two">
+<div class="section"><h2>Lindsey sits No. 1 nationally in passing</h2><p>D. Lindsey of Washington State <span class="user">[Isaac]</span> is the one user-team national leader whose rank is fully verified in this Week 1 capture: No. 1 in passing with 699 yards. He has completed 48 of 55 attempts with five touchdowns.</p><p>Fresno State <span class="user">[Brink]</span> leads the verified user-team offensive snapshot at 517 yards per game, while Washington State checks in at 486. UAB <span class="user">[Jackpot]</span> owns a verified +5 turnover differential.</p><p>Rushing, receiving and interception rows were captured, but their national order was not verified well enough to publish ranking claims this week.</p></div>
+<div class="statboard">
+<div class="stat"><div class="statlabel">National passing</div><div class="statvalue">#1 · 699 YDS</div><div class="statdesc"><b>D. Lindsey</b> · Washington State <span class="user">[Isaac]</span><br>48/55 · 5 TD</div></div>
+<div class="stat"><div class="statlabel">User-team offense</div><div class="statvalue">517 YPG</div><div class="statdesc"><b>Fresno State</b> <span class="user">[Brink]</span></div></div>
+<div class="stat"><div class="statlabel">Turnover differential</div><div class="statvalue">+5</div><div class="statdesc"><b>UAB</b> <span class="user">[Jackpot]</span></div></div>
+</div></section>
+
+<p class="closing"><strong>Next whistle:</strong> the opening week still has business left. UAB–USF is the clearest remaining user-v-user appointment, Oregon State’s opponent needs a cleaner capture before publication, and UNLV’s Week 1 schedule status remains intentionally unassigned. The archive will keep the paper trail simple: print what the game verifies, leave the rest for the next edition.</p>
+<div class="footer">Old Guy CFB · EA College Football 27 · 2028 Week 1 · Media Poll primary</div>
+</main></body></html>
