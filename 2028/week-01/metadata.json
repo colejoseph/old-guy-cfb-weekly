@@ -30,6 +30,21 @@
     "Media Poll ranks 11, 17, 24 and 25 were not verified.",
     "Rushing, receiving and interceptions national order was not published because rank verification failed.",
     "Westy's Week 1 schedule status was not inferred from absence.",
-    "Oregon State's opponent identity was not promoted beyond the captured scheduled line."
-  ]
+    "Oregon State's Week 1 opponent identity was not promoted beyond the captured line.",
+    "UAB-USF remained unresolved because the publish bundle did not trust the line as a final."
+  ],
+  "correction": {
+    "correctedAt": "2026-09-24",
+    "reason": "Collector misclassified the Aug. 26 Week 0 schedule page as Week 1.",
+    "week0Recap": [
+      "Washington State [Isaac] 37 at USF [Cole] 7",
+      "Boise State 30 at Fresno State [Brink] 56",
+      "Charlotte [Kel] 34 at Eastern Michigan 24"
+    ],
+    "week1Finals": [
+      "Nebraska 23 at UTEP [Przemysl] 21",
+      "Wyoming [Karl_Hungus] 20 at Stanford [Todd] 17",
+      "UConn [Phil Macrack] 30 at Florida State 13"
+    ]
+  }
 }
