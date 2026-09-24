@@ -1,0 +1,35 @@
+{
+  "leagueId": "old-guy-cfb",
+  "league": "Old guy CFB Dynasty",
+  "season": 2028,
+  "week": 1,
+  "primaryPoll": "media",
+  "sourceBundleVersion": "0.9-beta-dotnet",
+  "usedFactIds": [
+    "poll:2028:w1:media:washington-state",
+    "poll:2028:w1:media:wyoming",
+    "poll:2028:w1:media:stanford",
+    "poll:2028:w1:media:utep",
+    "poll:2028:w1:media:fresno-state",
+    "poll:2028:w1:media:unlv",
+    "poll:2028:w1:coaches:fresno-state",
+    "game:2028:w1:washington-state:south-florida",
+    "game:2028:w1:boise-state:fresno-state",
+    "game:2028:w1:charlotte:eastern-michigan",
+    "game:2028:w1:nebraska:utep",
+    "game:2028:w1:wyoming:stanford",
+    "game:2028:w1:uconn:florida-state",
+    "game:2028:w1:wsw:oregon-state",
+    "game:2028:w1:uab:south-florida",
+    "leader:2028:w1:passing:d-lindsey",
+    "teamstat:2028:w1:offense:fresno-state:yardspergame",
+    "teamstat:2028:w1:offense:washington-state:yardspergame",
+    "teamstat:2028:w1:turnovers:uab:turnoverdiff"
+  ],
+  "publicationExclusions": [
+    "Media Poll ranks 11, 17, 24 and 25 were not verified.",
+    "Rushing, receiving and interceptions national order was not published because rank verification failed.",
+    "Westy's Week 1 schedule status was not inferred from absence.",
+    "Oregon State's opponent identity was not promoted beyond the captured scheduled line."
+  ]
+}
