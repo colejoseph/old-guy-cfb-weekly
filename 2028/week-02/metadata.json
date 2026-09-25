@@ -1,0 +1,26 @@
+{
+  "leagueId": "old-guy-cfb",
+  "season": 2028,
+  "currentWeek": 2,
+  "previousWeek": 1,
+  "primaryPoll": "media",
+  "coverage": "partial",
+  "verifiedRecapFactIds": [
+    "game:2028:w1:washington-state:virginia-tech",
+    "game:2028:w1:nebraska:utep",
+    "game:2028:w1:wyoming:stanford",
+    "game:2028:w1:uconn:florida-state",
+    "game:2028:w1:arizona:charlotte",
+    "game:2028:w1:uab:south-florida"
+  ],
+  "verifiedScheduleFactIds": [
+    "game:2028:w2:charlotte:south-carolina",
+    "game:2028:w2:arkansas:uab",
+    "game:2028:w2:unlv:kansas-state",
+    "game:2028:w2:louisville:washington-state",
+    "game:2028:w2:colorado:wyoming",
+    "game:2028:w2:stanford:oregon-state",
+    "game:2028:w2:utep:texas-state",
+    "game:2028:w2:texas-am:fresno-state"
+  ]
+}
