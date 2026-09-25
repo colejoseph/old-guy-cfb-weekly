@@ -34,6 +34,17 @@
       "homeScore": 28,
       "status": "final",
       "source": "user-supplied manual correction, 2026-09-25"
+    },
+    {
+      "factId": "game:2028:w1:byu:oregon-state",
+      "gameWeek": 1,
+      "awayTeam": "BYU",
+      "homeTeam": "Oregon State",
+      "homeUser": "Joe",
+      "awayScore": 10,
+      "homeScore": 3,
+      "status": "final",
+      "source": "user-supplied manual correction, 2026-09-25"
     }
   ]
 }
