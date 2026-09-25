@@ -22,5 +22,18 @@
     "game:2028:w2:stanford:oregon-state",
     "game:2028:w2:utep:texas-state",
     "game:2028:w2:texas-am:fresno-state"
+  ],
+  "manualCorrections": [
+    {
+      "factId": "game:2028:w1:fresno-state:penn-state",
+      "gameWeek": 1,
+      "awayTeam": "Fresno State",
+      "awayUser": "Brink",
+      "homeTeam": "Penn State",
+      "awayScore": 35,
+      "homeScore": 28,
+      "status": "final",
+      "source": "user-supplied manual correction, 2026-09-25"
+    }
   ]
 }
